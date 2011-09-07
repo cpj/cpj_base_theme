@@ -1,0 +1,12 @@
+name = cpj base theme
+description = a base theme for cpj websites
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/cpj_base_theme.css
+stylesheets[all][] = css/responsive_styles.css
+stylesheets[all][] = css/page_overrides.css
+stylesheets[all][] = css/panels_ipe_override.css
+
+scripts[] = js/cpj_base_theme.js
