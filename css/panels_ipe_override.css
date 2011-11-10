@@ -189,10 +189,12 @@ div#panels-ipe-control-container {
   position: fixed;
   margin: auto;
   bottom: 0;
-  left: 45%;
   display: block;
   background: none;  
-  padding: 0.5em 1em;
+}
+
+div.panels-ipe-startedit {
+  margin-bottom: -2em;
 }
 
 div.panels-ipe-pseudobutton {
@@ -210,7 +212,6 @@ div.panels-ipe-pseudobutton {
   color: #3A3A3A;
   cursor: pointer;
   font: normal 0.929 "Lucida Grande",Tahoma,Verdana,sans-serif;
-  margin-bottom: 1em;
   margin-right: 0.6em;
   padding: 14px 17px 4px 17px;
   text-align: center;
@@ -227,9 +228,12 @@ div.panels-ipe-pseudobutton:active, div.panels-ipe-pseudobutton:focus {
   border-color: #777;
 }
 
+div.panels-ipe-control {
+  height: 10px;
+}
+
 div.panels-ipe-control .form-submit {
   float: left;
-  margin: 0.3em 0.5em;
 }
 
 div.panels-ipe-form-container {
@@ -237,5 +241,6 @@ div.panels-ipe-form-container {
   min-height: 2em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 

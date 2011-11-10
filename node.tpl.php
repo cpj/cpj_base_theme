@@ -86,14 +86,9 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 
-  <?php if ($display_submitted && $page): ?>
+  <?php if ($display_submitted): ?>
     <div class="submitted">
       <?php print $user_picture; ?>
-      <?php print '<span class="author">' . $name . '</span>'; ?>
-      <?php print '<span class="created">' . $date . '</span>'; ?>
-    </div>
-  <?php elseif ($display_submitted && !$page): ?>
-    <div class="submitted-teaser">
       <?php print '<span class="author">' . $name . '</span>'; ?>
       <?php print '<span class="created">' . $date . '</span>'; ?>
     </div>

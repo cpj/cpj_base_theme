@@ -10,3 +10,14 @@ stylesheets[all][] = css/page_overrides.css
 stylesheets[all][] = css/panels_ipe_override.css
 
 scripts[] = js/cpj_base_theme.js
+
+regions[banner] = Banner
+regions[content_header] = Header
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom

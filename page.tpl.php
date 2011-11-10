@@ -103,7 +103,7 @@
         </div> <!-- #site-slogan -->
       <?php endif; ?>
 
-    <?php print render($page['header']); ?>
+    <?php print render($page['banner']); ?>
 
     </div></div> <!-- /.container-1024 /#bottom-bar -->
 
@@ -121,6 +121,9 @@
         <?php endif; ?>
 
       </div>
+      <div id="content-header" class="clearfix container-1024">
+        <?php print render($page['content_header']); ?>
+      </div> <!-- #content-header -->
 
       <?php print $messages; ?>
 
@@ -154,9 +157,9 @@
 
     </div></div> <!-- /#main, /#main-wrapper -->
 
-    <div id="footer"><div class="section">
+    <div id="footer"><div class="section"><div class="container-1024">
       <?php print render($page['footer']); ?>
       <?php print $feed_icons; ?>
-    </div></div> <!-- /.section, /#footer -->
+    </div></div></div> <!-- /container-1024, /.section, /#footer -->
 
   </div></div> <!-- /#page, /#page-wrapper -->
