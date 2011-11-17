@@ -3,14 +3,17 @@ description = a base theme for cpj websites
 core = 7.x
 engine = phptemplate
 
+#These are style sheets
 stylesheets[all][] = css/reset.css
 stylesheets[all][] = css/cpj_base_theme.css
 stylesheets[all][] = css/responsive_styles.css
 stylesheets[all][] = css/page_overrides.css
 stylesheets[all][] = css/panels_ipe_override.css
 
+#This is the java script
 scripts[] = js/cpj_base_theme.js
 
+#These are the regions
 regions[banner] = Banner
 regions[content_header] = Header
 regions[sidebar_first]  = Left sidebar
@@ -21,3 +24,5 @@ regions[highlighted] = Highlighted
 regions[help] = Help
 regions[page_top] = Page Top
 regions[page_bottom] = Page Bottom
+
+
