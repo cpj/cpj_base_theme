@@ -1369,3 +1369,27 @@ table.system-status-report tr.error {
 tr td:last-child {
   border-right: 1px solid #bebfb9; /* LTR */
 }
+
+/** 
+HTML ELEMENTS
+**/
+
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+div.node ul li {
+  list-style-type: disc;
+}
+
+div.node ol li {
+  list-style-type: decimal;
+}
+
+div.node ol, div.node ul {
+  padding-left: 30px;
+}
