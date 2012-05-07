@@ -1394,3 +1394,54 @@ div.node ol li {
 div.node ol, div.node ul {
   padding-left: 30px;
 }
+
+
+/* section headers */
+
+body.page-taxonomy-term-6 h1#page-title {
+  text-indent: -3000px;
+  background: #fff url(/sites/cooperpointjournal.com/files/Sports.jpg) no-repeat left top;
+  width: 700px;
+  height: 90px;
+  white-space: nowrap;
+}
+
+body.page-taxonomy-term-7 h1#page-title {
+  text-indent: -3000px;
+  background: #fff url(/sites/cooperpointjournal.com/files/CPJ_AE_banner.jpg) no-repeat left top;
+  width: 700px;
+  height: 90px;
+  white-space: nowrap;
+}
+
+body.page-taxonomy-term-3 h1#page-title {
+  text-indent: -3000px;
+  background: #fff url(/sites/cooperpointjournal.com/files/campuslife.jpg) no-repeat left top;
+  width: 700px;
+  height: 90px;
+  white-space: nowrap;
+}
+
+body.page-taxonomy-term-1 h1#page-title {
+  text-indent: -3000px;
+  background: #fff url(/sites/cooperpointjournal.com/files/News.jpg) no-repeat left top;
+  width: 700px;
+  height: 90px;
+  white-space: nowrap;
+}
+
+body.page-taxonomy-term-2 h1#page-title {
+  text-indent: -3000px;
+  background: #fff url(/sites/cooperpointjournal.com/files/Opinions.jpg) no-repeat left top;
+  width: 700px;
+  height: 90px;
+  white-space: nowrap;
+}
+
+body.page-taxonomy-term-5 h1#page-title {
+  text-indent: -3000px;
+  background: #fff url(/sites/cooperpointjournal.com/files/comics_banner.jpg) no-repeat left top;
+  width: 700px;
+  height: 90px;
+  white-space: nowrap;
+}
